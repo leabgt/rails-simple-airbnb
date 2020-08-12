@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <div class="banner d-flex justify-content-between">
+      <h3><%= link_to "Simple Airbnb", flats_path %></h3>
+      <button class="btn .btn-default"><%= link_to "Add Flat", new_flat_path %></button>
+    </div>
     <%= yield %>
   </body>
 </html>

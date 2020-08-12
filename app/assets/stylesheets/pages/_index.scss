@@ -1,0 +1,21 @@
+// Import page-specific CSS files here.
+@import "home";
+
+.flat-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flat-card {
+  box-shadow: 3px 3px 3px lightgrey;
+  width: 409px;
+  height: 250px;
+  margin: 16px;
+}
+
+.card-content {
+  background-color: lightgrey;
+  height: 200px;
+  padding: 16px;
+}
